@@ -37,6 +37,7 @@ h2 {
   margin: 0 auto;
   margin-top: 6.6vw;
   border-radius: 4.5%;
+  cursor: pointer;
 }
 
 .right-menu {
@@ -50,9 +51,12 @@ h2 {
 .settings {
   width: 3.6vw;
   height: 3.6vw;
+}
+
+.settings-link {
   position: absolute;
-  top: 20vw;
-  left: 40vw;
+  top: 39vw;
+  left: 80vw;
 }
 
 .right-menu-text {
@@ -60,8 +64,7 @@ h2 {
   margin-bottom: 0.6vw;
 }
 
-.score-first-player,
-.score-second-player {
+.score-players {
   text-align: center;
   margin-bottom: 0.6vw;
 }
@@ -167,4 +170,24 @@ h2 {
   top: 5.3vw;
   left: 49.479vw;
   transform: rotate(45deg);
+}
+
+.js-dagger {
+  background: url('../img/dagger.png') 50% 50% no-repeat;
+  background-size: 7.5vw auto;
+}
+
+.js-zero {
+  background: url('../img/zero.png') 50% 50% no-repeat;
+  background-size: 7.5vw auto;
+}
+
+.js-dagger-opacity {
+  background: url('../img/dagger-opacity.png') 50% 50% no-repeat;
+  background-size: 7.5vw auto;
+}
+
+.js-zero-opacity {
+  background: url('../img/zero-opacity.png') 50% 50% no-repeat;
+  background-size: 7.5vw auto;
 }
